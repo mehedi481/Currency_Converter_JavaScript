@@ -1,0 +1,21 @@
+body {
+    background-color:gray;
+  }
+  
+  h1 {
+    color: white;
+    margin-left: 20px;
+    text-align: center;
+    
+  }
+a{
+  color: white;
+}
+.header_div{
+    background-color: rgb(31, 29, 29);
+    padding: 5px;
+}
+.marquee_text{
+  font-size: 20px;
+  color:cyan;
+}
