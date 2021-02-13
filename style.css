@@ -19,3 +19,9 @@ a{
   font-size: 20px;
   color:cyan;
 }
+.calculator_space{
+  background-color: orange;
+  height: 100%;
+  padding: 10px;
+  text-align: center;
+}

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,13 +9,37 @@
     <link rel="stylesheet" href="style.css">
     <script src="./script.js"></script>
 </head>
+
 <body>
     <div class="header_div">
         <h1>Currency Converter Using JavaScript</h1>
     </div>
     <div class="marquee_text">
-        <marquee  behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();"><p>This Converter made by Mehedi Hasan.You can see full code in my gitHub account or goto my website <a href="https://mehedi481.github.io/mehedihasan/index.html">Click Here</a></p></marquee>
+        <marquee behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
+            <p>This Converter made by Mehedi Hasan.You can see full code in my gitHub account or goto my website <a
+                    href="https://mehedi481.github.io/mehedihasan/index.html">Click Here</a></p>
+        </marquee>
     </div>
-    
+
+    <div class="calculator_space">
+        <select name="currency" id="convert1" onchange="first()" oninput="first()">
+            <option value="bdtk">TAKA</option>
+            <option value="rupee">RUPEE</option>
+            <option value="dollar">DOLLAR</option>
+        </select>
+        <input type="number" id="input" onclick="first()" oninput="first()">
+        <br />
+        <br />
+        <br />
+        <select name="currency" id="convert2" onchange="first()" oninput="first()">
+            <option value="bdtk1">TAKA</option>
+            <option value="rupee1">RUPEE</option>
+            <option value="dollar1">DOLLAR</option>
+
+        </select>
+        <input type="number" id="output" onclick="first()" oninput="first()">
+    </div>
+
 </body>
+
 </html>
