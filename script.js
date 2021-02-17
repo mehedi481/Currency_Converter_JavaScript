@@ -1,40 +1,138 @@
 console.log("SUCCESS....");
 
-//TODO: Initial value added for BDtk.We have to do calculation for all currency1.Ex: rupee2tk,rupee2rupee,rupee2dollar so on...
 function first() {
     var input = document.getElementById("input");
     var output = document.getElementById("output");
     output.value = 0;
-    //This for BDTKs
-    if (document.getElementById("convert1").value == "bdtk1") {
-        if (document.getElementById("convert2").value == "bdtk2") {
+    //This for USDs
+    if (document.getElementById("convert1").value == "USD1") {
+        if (document.getElementById("convert2").value == "USD2") {
             output.value = input.value * 1;
         }
     }
-    if (document.getElementById("convert1").value == "bdtk1") {
-        if (document.getElementById("convert2").value == "rupee2") {
-            output.value = input.value * 0.86;
-        }
-    } 
-    if (document.getElementById("convert1").value == "bdtk1") {
-        if (document.getElementById("convert2").value == "dollar2") {
-            output.value = input.value * 0.012;
+    if (document.getElementById("convert1").value == "USD1") {
+        if (document.getElementById("convert2").value == "GBP2") {
+            output.value = input.value * 2.03032;
         }
     }
-    //This for Rupees
-    if(document.getElementById('convert1').value == "rupee1"){
-        if (document.getElementById("convert2").value == "rupee2") {
+    if (document.getElementById("convert1").value == "USD1") {
+        if (document.getElementById("convert2").value == "CAD2") {
+            output.value = input.value * 1.01941;
+        }
+    }
+    if (document.getElementById("convert1").value == "USD1") {
+        if (document.getElementById("convert2").value == "EUR2") {
+            output.value = input.value * 1.41544;
+        }
+    }
+    if (document.getElementById("convert1").value == "USD1") {
+        if (document.getElementById("convert2").value == "AUD2") {
+            output.value = input.value * 0.88297;
+        }
+    }
+
+    //This for GBPs
+    if (document.getElementById('convert1').value == "GBP1") {
+        if (document.getElementById("convert2").value == "GBP2") {
             output.value = input.value * 1;
         }
     }
-    if(document.getElementById('convert1').value == "rupee1"){
-        if (document.getElementById("convert2").value == "bdtk2") {
-            output.value = input.value * 1.17;
+    if (document.getElementById('convert1').value == "GBP1") {
+        if (document.getElementById("convert2").value == "USD2") {
+            output.value = input.value * 0.49246;
         }
     }
-    if(document.getElementById('convert1').value == "rupee1"){
-        if (document.getElementById("convert2").value == "dollar2") {
-            output.value = input.value * 0.015;
+    if (document.getElementById('convert1').value == "GBP1") {
+        if (document.getElementById("convert2").value == "CAD2") {
+            output.value = input.value * 0.50221;
+        }
+    }
+    if (document.getElementById('convert1').value == "GBP1") {
+        if (document.getElementById("convert2").value == "EUR2") {
+            output.value = input.value * 0.69714;
+        }
+    }
+    if (document.getElementById('convert1').value == "GBP1") {
+        if (document.getElementById("convert2").value == "AUD2") {
+            output.value = input.value * 0.43497;
+        }
+    }
+    //This for CADs
+    if (document.getElementById('convert1').value == "CAD1") {
+        if (document.getElementById("convert2").value == "CAD2") {
+            output.value = input.value * 1;
+        }
+    }
+    if (document.getElementById('convert1').value == "CAD1") {
+        if (document.getElementById("convert2").value == "USD2") {
+            output.value = input.value * 0.98054;
+        }
+    }
+    if (document.getElementById('convert1').value == "CAD1") {
+        if (document.getElementById("convert2").value == "GBP2") {
+            output.value = input.value * 1.99169;
+        }
+    }
+    if (document.getElementById('convert1').value == "CAD1") {
+        if (document.getElementById("convert2").value == "EUR2") {
+            output.value = input.value * 1.38814;
+        }
+    }
+    if (document.getElementById('convert1').value == "CAD1") {
+        if (document.getElementById("convert2").value == "AUD2") {
+            output.value = input.value * 0.86613;
+        }
+    }
+    //This for EURs
+    if (document.getElementById('convert1').value == "EUR1") {
+        if (document.getElementById("convert2").value == "EUR2") {
+            output.value = input.value * 1;
+        }
+    }
+    if (document.getElementById('convert1').value == "EUR1") {
+        if (document.getElementById("convert2").value == "USD2") {
+            output.value = input.value * 0.70641;
+        }
+    }
+    if (document.getElementById('convert1').value == "EUR1") {
+        if (document.getElementById("convert2").value == "GBP2") {
+            output.value = input.value * 1.43448;
+        }
+    }
+    if (document.getElementById('convert1').value == "EUR1") {
+        if (document.getElementById("convert2").value == "CAD2") {
+            output.value = input.value * 0.72037;
+        }
+    }
+    if (document.getElementById('convert1').value == "EUR1") {
+        if (document.getElementById("convert2").value == "AUD2") {
+            output.value = input.value * 0.62382;
+        }
+    }
+    //This for 
+    if (document.getElementById('convert1').value == "AUD1") {
+        if (document.getElementById("convert2").value == "AUD2") {
+            output.value = input.value * 1;
+        }
+    }
+    if (document.getElementById('convert1').value == "AUD1") {
+        if (document.getElementById("convert2").value == "EUR2") {
+            output.value = input.value * 1.60329;
+        }
+    }
+    if (document.getElementById('convert1').value == "AUD1") {
+        if (document.getElementById("convert2").value == "CAD2") {
+            output.value = input.value * 1.15498;
+        }
+    }
+    if (document.getElementById('convert1').value == "AUD1") {
+        if (document.getElementById("convert2").value == "GBP2") {
+            output.value = input.value * 2.29964;
+        }
+    }
+    if (document.getElementById('convert1').value == "AUD1") {
+        if (document.getElementById("convert2").value == "USD2") {
+            output.value = input.value * 1.13262;
         }
     }
 }
